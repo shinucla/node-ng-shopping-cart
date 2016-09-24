@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-express-auth",
+  "description": "node.js + express + auth",
+  "author": "shin",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "latest",
+    "connect-flash": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "csurf": "latest",
+    "ejs": "^2.5.2",
+    "express": "latest",
+    "express-session": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "latest",
+    "serve-favicon": "latest"
+  }
+}

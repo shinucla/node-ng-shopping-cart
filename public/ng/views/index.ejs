@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular Node.js Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/ng-user-photo.css" rel="stylesheet">
+    <link href="/css/ng-edit-in-place.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!--script src="/js/jquery.validate.min.js"></script-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="/js/jqlite.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-cookies.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
+    
+    <script src="/ng/kz-app.js"></script>
+
+    <script src="/ng/services/kz-api-service.js"></script>
+    <script src="/ng/services/kz-auth-service.js"></script>
+    <script src="/ng/services/kz-session-service.js"></script>
+    <script src="/ng/services/kz-server-service.js"></script>
+
+    <script src="/ng/controllers/kz-header-navbar-controller.js"></script>
+    <script src="/ng/controllers/kz-home-controller.js"></script>
+    <script src="/ng/controllers/kz-auth-controller.js"></script>
+    
+    <script src="/ng/directives/kz-header-navbar.js"></script>
+  </head>
+
+  <body ng-app = "kzApp" style = "padding-top: 70px;">
+    <kz-header-navbar></kz-header-navbar>
+
+    <div class="container">
+      <div ng-view></div>
+    </div>
+  </body>
+</html>
